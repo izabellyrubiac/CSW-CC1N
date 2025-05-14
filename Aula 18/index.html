@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="JavaScript">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula JavaScript</title>
+</head>
+<body>
+    
+    <h1>Aula inicial de JavaScript</h1>
+
+    <script type="text/javascript">
+        document.write("<h2> Olá Mundo! esse é meu primeiro programa JavaScript</h2> <br>");
+            document.write("<p>eu adoro aula de javascript</p>");//Para escrever
+            window.alert("Olá Mundo! JavaScript"); //Para avisos
+    </script>
+
+    <h2 id="sub"> </h2>
+    <h3 id="resposta"></h3>
+    <hr>
+    <script type="text/javascript">
+        document.getElementById('sub').innerHTML = 'Um texto com algo interessante';//deixar dinamico - por exemplo as horas
+        window.confirm('tudo beleza');//aparece opção de confirmar ou cancelar, parecido com o comando window.alert
+        document.getElementById('resposta').innerHTML = window.confirm('Você está gostando do curso?');//retorna true ou false de acordo com a escolha na notificação
+        document.getElementById('resposta').innerHTML = 'O nome digitado foi: ' + window.prompt('Qual é seu nome?');//caixa de resposta em forma de notificação
+    </script>
+
+</body>
+</html>
