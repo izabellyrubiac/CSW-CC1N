@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mostra idade</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <h1>Mostra a idade</h1>
+    <h2>Regras</h2>
+    <ol>
+        <li>Idade menor que 0 - Idade inválida</li>
+        <li>Idade igual a 0 - É recém nascido</li>
+        <li>Idade maior que 0 menor que 9 anos - É uma criança</li>
+        <li>Idade maior que 10 e menor que 15 - É um adolescente</li>
+        <li>Idade maior que 16 e menor que 25 anos - É um jovem</li>
+        <li>Idade maior que 26 e menor que 60 anos - É um adulto</li>
+        <li>Idade maior ou igual a 60 anos - É um idoso</li>
+        <li>Idade diferente disso - Não digitou idade</li>
+    </ol>
+    <hr>
+    <br>
+    <div>
+        Digite sua idade:<input id="entrada" type="text"> 
+        <button onclick="enviar()">Identificar</button>
+    </div>
+    <div>
+        <h2 id="resultado"></h2>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

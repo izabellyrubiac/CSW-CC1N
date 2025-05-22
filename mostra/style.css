@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+div {
+    background-color: bisque;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
